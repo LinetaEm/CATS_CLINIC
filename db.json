@@ -109,6 +109,16 @@
       "phone": "868500730",
       "role": "client",
       "id": 12
+    },
+    {
+      "email": "pastoges@yahoo.com",
+      "password": "$2a$10$ePkQB9v9RTglB0PfjUDcPOCxFbkWN0KnQYyck/lvwhfptAeqiyye2",
+      "firstName": "Lineta",
+      "lastName": "Mileikienė",
+      "address": "Karaliaus Mindaugo pr. 26-4",
+      "phone": "868500730",
+      "role": "client",
+      "id": 13
     }
   ],
   "visits": [
@@ -183,6 +193,15 @@
       ],
       "usersId": 11,
       "id": 11
+    },
+    {
+      "selectedTime": "2023-11-11T13:01:35.000Z",
+      "comment": "gvfcx",
+      "petsId": [
+        12
+      ],
+      "usersId": 12,
+      "id": 12
     }
   ],
   "pets": [
@@ -203,15 +222,15 @@
     {
       "name": "Luna",
       "breed": "Ragdoll",
-      "age": "1",
-      "usersId": 6,
+      "age": "11",
+      "usersId": 1,
       "id": 5
     },
     {
       "name": "Rocky",
       "breed": "Bulldog",
       "age": "4",
-      "usersId": 5,
+      "usersId": 1,
       "id": 6
     },
     {
@@ -245,16 +264,30 @@
     {
       "name": "2",
       "breed": "2",
-      "age": "2",
-      "usersId": 11,
+      "age": "11",
+      "usersId": 1,
       "id": 11
     },
     {
-      "name": "Lina",
+      "name": "Kojinė fon Šiurkė",
       "breed": "Siamesse",
-      "age": "13",
+      "age": "14",
       "usersId": 12,
       "id": 12
+    },
+    {
+      "name": "Meda",
+      "breed": "Siamesse",
+      "age": "14",
+      "usersId": 3,
+      "id": 13
+    },
+    {
+      "name": "Irma",
+      "breed": "Siamesse",
+      "age": "13",
+      "usersId": 10,
+      "id": 14
     }
   ]
 }

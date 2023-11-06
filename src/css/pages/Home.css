@@ -4,4 +4,35 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #44adde;
 }
+#home-page h1 {
+    font-size: 3rem;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+
+#home-page p {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-top: 1rem;
+    text-transform: lowercase;
+  }
+  #home-page a {
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bold; 
+    color: #44adde;
+    margin-top: 1.5rem;
+    padding: 0.5rem 1rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0px 1px hsla(0, 0%, 0%, 0.2), 0 1px 2px hsla(0, 0%, 0%, 0.2);
+  }
+  
+  #home-page a:hover {
+    box-shadow: 0 0px 1px hsla(0, 0%, 0%, 0.6), 0 1px 2px hsla(0, 0%, 0%, 0.2);
+    background-color: #44adde;
+    color: #ffffff;
+  }
+  

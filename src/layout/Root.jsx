@@ -1,5 +1,7 @@
 import { useContext } from "react";
 
+
+
 // ROUTER
 import { Outlet,  useNavigate } from "react-router-dom";
 
@@ -16,6 +18,7 @@ import AppRegistrationIcon from '@mui/icons-material/AppRegistration';
 import PetsIcon from '@mui/icons-material/Pets';
 import PeopleIcon from '@mui/icons-material/People';
 
+
 // CSS
 import "./Root.css"
 
@@ -26,7 +29,11 @@ export default function Root() {
   return (
     <>
       <div id="sidebar">
-        <h2>Klinika</h2>
+        <h2>Tel. +370 123456</h2>
+        <h3>I. Kanto str. 00, Kaunas</h3>
+        <div>
+        <img src='./Lin–logo.jpg' alt="Lin Logo" />
+        </div>
         <List>
           {!userState && <ListItem onClick={() => navigate('/home')}>
             <ListItemButton>
@@ -98,6 +105,7 @@ export default function Root() {
 
         </List>
       </div>
+
       <Outlet />
 
     </>
