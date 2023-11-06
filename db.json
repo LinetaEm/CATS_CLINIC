@@ -1,0 +1,260 @@
+{
+  "users": [
+    {
+      "email": "daktaras@daktaras.com",
+      "password": "$2a$10$iYmZNFJJa7XjMcxCzYU0sODKdN3mtZIyun5.KofM23Z7Rd9mEuNHm",
+      "firstName": "Daktaras",
+      "lastName": "Dolitlis",
+      "address": "Kaunas",
+      "phone": "+37061234567",
+      "role": "doctor",
+      "id": 1
+    },
+    {
+      "email": "person2@example.com",
+      "password": "$2a$10$XUs.CA7W3Inx3h7wyxcQUu1u7iF1x/b5n6Tl9dDF5PzI5JeR1qyi6",
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "address": "Los Angeles",
+      "phone": "+9876543210",
+      "role": "client",
+      "id": 2
+    },
+    {
+      "email": "person3@example.com",
+      "password": "$2a$10$H4KWTy78f/ZV66T7FX4Eb.UYBshKh.h4rWtK6GWdbX1y6Dn/ugNR6",
+      "firstName": "Michael",
+      "lastName": "Johnson",
+      "address": "Chicago",
+      "phone": "+1122334455",
+      "role": "client",
+      "id": 3
+    },
+    {
+      "email": "person5@example.com",
+      "password": "$2a$10$F7DlDEs7BRMeMWhha5JAgOC9PUItmMNmTKMAlV13zj1n/uhB00VZG",
+      "firstName": "David",
+      "lastName": "Brown",
+      "address": "Miami",
+      "phone": "+1230987654",
+      "role": "client",
+      "id": 5
+    },
+    {
+      "email": "person6@example.com",
+      "password": "$2a$10$e7Oz8Zs7eY.WaXEnOpXsv.eIhTk9NBtA2fEfE7neqwLar7wUjLbju",
+      "firstName": "Emily",
+      "lastName": "Davis",
+      "address": "San Francisco",
+      "phone": "+1212121212",
+      "role": "client",
+      "id": 6
+    },
+    {
+      "email": "person7@example.com",
+      "password": "$2a$10$Aajq2qstjsDLwQMKJkxCvupi7GHNvKki4RK9YPPF0jF2aI.eUhTWe",
+      "firstName": "Christopher",
+      "lastName": "Lee",
+      "address": "Dallas",
+      "phone": "+9988776655",
+      "role": "client",
+      "id": 7
+    },
+    {
+      "email": "person8@example.com",
+      "password": "$2a$10$ZKQ4Qjrp48KK5GXpjIKgk.Fs5VDiADYuvPUD7t8F6dAhfHTpRqatK",
+      "firstName": "Olivia",
+      "lastName": "Garcia",
+      "address": "Phoenix",
+      "phone": "+1029384756",
+      "role": "client",
+      "id": 8
+    },
+    {
+      "email": "person9@example.com",
+      "password": "$2a$10$nBbu8QW8Se6yC5UNjWkucZwr7j8gAowI/MDb.YxRJWlHL.kz2XBTq",
+      "firstName": "Matthew",
+      "lastName": "Martinez",
+      "address": "Denver",
+      "phone": "+1567894321",
+      "role": "client",
+      "id": 9
+    },
+    {
+      "email": "person10@example.com",
+      "password": "$2a$10$7K6tzTYT.qAYvcJGJqGQeOjgGkibxnnn7lsOkS1eA8ShIStSxvtlW",
+      "firstName": "Sophia",
+      "lastName": "Hernandez",
+      "address": "Seattle",
+      "phone": "+3456789123",
+      "role": "client",
+      "id": 10
+    },
+    {
+      "email": "klientas@klientas.com",
+      "password": "$2a$10$CisCd6kB2WEv2GQfeJrt6.eo4pxVyg/T/r7AMuvxZxl9j6TyRMdy.",
+      "firstName": "Klientas",
+      "lastName": "Klientas",
+      "address": "1",
+      "phone": "1",
+      "role": "client",
+      "id": 11
+    },
+    {
+      "email": "linetamileikiene@gmail.com",
+      "password": "$2a$10$RV39vPFaCpuqwwm6ZllZO.wwULwIwn/Wha5lEXHTbbPYcSvQQoxYO",
+      "firstName": "Lineta",
+      "lastName": "Mileikienė",
+      "address": "Karaliaus Mindaugo pr. 26-4",
+      "phone": "868500730",
+      "role": "client",
+      "id": 12
+    }
+  ],
+  "visits": [
+    {
+      "usersId": 2,
+      "selectedTime": "2023-11-11T10:00:49.000Z",
+      "comment": "2rr",
+      "petsId": [
+        1
+      ],
+      "id": 1
+    },
+    {
+      "usersId": 9,
+      "selectedTime": "2023-11-08T15:20:45.929Z",
+      "comment": "Emergency visit",
+      "petsId": [
+        4
+      ],
+      "id": 4
+    },
+    {
+      "usersId": 6,
+      "selectedTime": "2023-11-09T13:15:28.402Z",
+      "comment": "Grooming session",
+      "petsId": [
+        5
+      ],
+      "id": 5
+    },
+    {
+      "usersId": 5,
+      "selectedTime": "2023-11-10T09:40:15.821Z",
+      "comment": "Behavior training",
+      "petsId": [
+        6
+      ],
+      "id": 6
+    },
+    {
+      "usersId": 8,
+      "selectedTime": "2023-11-11T12:55:37.754Z",
+      "comment": "Follow-up checkup",
+      "petsId": [
+        7
+      ],
+      "id": 7
+    },
+    {
+      "usersId": 10,
+      "selectedTime": "2023-11-12T16:10:12.634Z",
+      "comment": "X-ray needed",
+      "petsId": [
+        8
+      ],
+      "id": 8
+    },
+    {
+      "usersId": 2,
+      "selectedTime": "2023-11-14T08:20:33.475Z",
+      "comment": "Flea treatment",
+      "petsId": [
+        10
+      ],
+      "id": 10
+    },
+    {
+      "selectedTime": "2023-11-08T10:10:04.000Z",
+      "comment": "22",
+      "petsId": [
+        11
+      ],
+      "usersId": 11,
+      "id": 11
+    }
+  ],
+  "pets": [
+    {
+      "name": "Toras",
+      "breed": "Doberman",
+      "age": "2",
+      "usersId": 2,
+      "id": 1
+    },
+    {
+      "name": "Max",
+      "breed": "German Shepherd",
+      "age": "2",
+      "usersId": 9,
+      "id": 4
+    },
+    {
+      "name": "Luna",
+      "breed": "Ragdoll",
+      "age": "1",
+      "usersId": 6,
+      "id": 5
+    },
+    {
+      "name": "Rocky",
+      "breed": "Bulldog",
+      "age": "4",
+      "usersId": 5,
+      "id": 6
+    },
+    {
+      "name": "Charlie",
+      "breed": "Labrador Retriever",
+      "age": "2",
+      "usersId": 8,
+      "id": 7
+    },
+    {
+      "name": "Coco",
+      "breed": "Maine Coon",
+      "age": "3",
+      "usersId": 3,
+      "id": 8
+    },
+    {
+      "name": "Lucy",
+      "breed": "Poodle",
+      "age": "6",
+      "usersId": 10,
+      "id": 9
+    },
+    {
+      "name": "Simba",
+      "breed": "Siberian Husky",
+      "age": "4",
+      "usersId": 2,
+      "id": 10
+    },
+    {
+      "name": "2",
+      "breed": "2",
+      "age": "2",
+      "usersId": 11,
+      "id": 11
+    },
+    {
+      "name": "Lina",
+      "breed": "Siamesse",
+      "age": "13",
+      "usersId": 12,
+      "id": 12
+    }
+  ]
+}

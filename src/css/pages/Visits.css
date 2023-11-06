@@ -1,0 +1,28 @@
+#visits-page {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+
+#visits-page-box{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+#visits-page-list {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+
+#visits-page-paper-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
