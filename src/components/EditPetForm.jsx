@@ -16,14 +16,19 @@ import { AuthContext } from '../context/AuthContext';
 // CSS
 import "../css/components/CreateVisitForm.css"
 
+import {findClientByPet} from "../lib/index"
 
-export default function EditPetForm ({ isEditModalOpen, setIsEditModalOpen, handleEditPet, editablePetId, petsToDisplay }) {
+
+export default function EditPetForm ({ isEditModalOpen, setIsEditModalOpen, handleEditPet, editablePetId, petsToDisplay, allClients }) {
 
     const { userState } = useContext(AuthContext)
 
     const handleClose = () => setIsEditModalOpen(false);
 
     const editablePet = petsToDisplay.find(pet => pet.id === editablePetId)
+
+
+    const petClient = findClientByPet(allClients, editablePet)
 
 
     const style = {
@@ -46,7 +51,7 @@ export default function EditPetForm ({ isEditModalOpen, setIsEditModalOpen, hand
             }}
             validate={values => {
                 const errors = {};
-                if (!values.name) {
+                               if (!values.name) {
                     errors.name = 'Required'
                 }
                 if (!values.breed) {
@@ -59,7 +64,7 @@ export default function EditPetForm ({ isEditModalOpen, setIsEditModalOpen, hand
             }}
             onSubmit={async (values, { setSubmitting }) => {
                 const { name, breed, age } = values
-                await handleEditPet({ name, breed, age, usersId: userState.id })
+                              await handleEditPet({ name, breed, age, usersId: petClient.id })
                 setIsEditModalOpen(false)
                 setSubmitting(false)
             }}

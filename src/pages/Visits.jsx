@@ -30,6 +30,7 @@ import '../css/pages/Visits.css'
 
 // TOASTIFY 
 import { ToastContainer, toast } from 'react-toastify';
+import handleError from '../lib';
 
 
 export default function Visits() {
@@ -105,7 +106,7 @@ export default function Visits() {
       const visitsResponse = await getAllVisits()
       return visitsResponse.data
     } catch (error) {
-      toast.error(error.message);
+      handleError(error)
     } finally {
       setIsLoading(false)
     }
@@ -117,7 +118,7 @@ export default function Visits() {
       const petsResponse = await getAllPets()
       return petsResponse.data
     } catch (error) {
-      toast.error(error.message);
+      handleError(error)
     } finally {
       setIsLoading(false)
     }
@@ -128,7 +129,7 @@ export default function Visits() {
       const clientsResponse = await getAllClients()
       return clientsResponse.data
     } catch (error) {
-      toast.error(error.message);
+      handleError(error)
     }
   }
 
@@ -137,7 +138,7 @@ export default function Visits() {
       const clientVisitsReponse = await getClientVisits(userState.id)
       return clientVisitsReponse.data
     } catch (error) {
-      toast.error(error.message);
+      handleError(error)
     }
   }
 
@@ -146,7 +147,7 @@ export default function Visits() {
       const petsResponse = await getPets(userState.id)
       return petsResponse.data
     } catch (error) {
-      toast.error(error.message);
+      handleError(error)
     }
   }
 
@@ -178,7 +179,7 @@ export default function Visits() {
       navigate("/visits")
       navigate(0)
     } catch (error) {
-      toast.error(error.message);
+      handleError(error)
     } finally {
       setIsLoading(false)
     }
@@ -191,7 +192,7 @@ export default function Visits() {
       navigate("/visits")
       navigate(0)
     } catch (error) {
-      toast.error(error.message);
+      handleError(error)
     }
     finally {
       setIsLoading(false)

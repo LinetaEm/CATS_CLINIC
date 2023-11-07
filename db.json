@@ -79,23 +79,13 @@
       "phone": "+3456789123",
       "role": "client",
       "id": 10
-    },
-    {
-      "email": "linetamileikiene@gmail.com",
-      "password": "$2a$10$s5HDCSb02ZkpKWXees6RRONyOhkMTFqVF7Hjuoxg.DDa.vxWetCoG",
-      "firstName": "INARA",
-      "lastName": "JUŠKIENĖ",
-      "address": "Stoties g. 5a",
-      "phone": "864810731",
-      "role": "client",
-      "id": 11
     }
   ],
   "visits": [
     {
       "usersId": 2,
-      "selectedTime": "2023-11-12T10:00:49.000Z",
-      "comment": "geras šuo",
+      "selectedTime": "2023-11-11T10:00:49.000Z",
+      "comment": "2rr",
       "petsId": [
         1
       ],
@@ -103,8 +93,8 @@
     },
     {
       "usersId": 9,
-      "selectedTime": "2023-11-08T15:20:45.929Z",
-      "comment": "Emergency visit",
+      "selectedTime": "2023-11-19T15:55:45.000Z",
+      "comment": "Emergency",
       "petsId": [
         4
       ],
@@ -148,12 +138,30 @@
     },
     {
       "usersId": 2,
+      "selectedTime": "2023-11-12T14:06:18.000Z",
+      "comment": "Laba diena",
+      "petsId": [
+        10
+      ],
+      "id": 13
+    },
+    {
+      "usersId": 2,
       "selectedTime": "2023-11-19T14:06:52.000Z",
       "comment": "cvbnn",
       "petsId": [
         1
       ],
       "id": 14
+    },
+    {
+      "usersId": 2,
+      "selectedTime": "2023-11-12T21:05:10.000Z",
+      "comment": "",
+      "petsId": [
+        1
+      ],
+      "id": 15
     }
   ],
   "pets": [
@@ -212,13 +220,6 @@
       "age": "4",
       "usersId": 2,
       "id": 10
-    },
-    {
-      "name": "Lina",
-      "breed": "Siamesse",
-      "age": "13",
-      "usersId": 11,
-      "id": 11
     }
   ]
 }

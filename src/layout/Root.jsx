@@ -22,7 +22,8 @@ import AppRegistrationIcon from "@mui/icons-material/AppRegistration";
 import PetsIcon from "@mui/icons-material/Pets";
 import PeopleIcon from "@mui/icons-material/People";
 // LOGO
-import logo from "./logo.jpg";
+// reik logo
+import logo from "./logo.jpg";  
 
 // CSS
 import "./Root.css";
@@ -30,14 +31,14 @@ import "./Root.css";
 export default function Root() {
   const { userState, localLogout } = useContext(AuthContext);
   const navigate = useNavigate();
-
+  
   return (
     <>
       <div id="sidebar">
         <p>Tel. +370 123456</p>
         <p3>Address: I. Kanto str. 100, Kaunas</p3>
         <p>e-mail: info@email.com</p>
-        <img src={logo} alt="Logo" />
+         <img src={logo} alt="Logo" />
         <List>
           {!userState && (
             <ListItem onClick={() => navigate("/home")}>

@@ -24,7 +24,7 @@ import { createClient, deleteClient, editClient } from '../adapters/clientsPageA
 import '../css/pages/Clients.css'
 
 // LIB
-import { searchObjects } from '../lib';
+import handleError, { searchObjects } from '../lib';
 
 // TOASTIFY 
 import { ToastContainer, toast } from 'react-toastify';
@@ -80,7 +80,7 @@ export default function Clients() {
       const petsResponse = await getAllPets()
       return petsResponse.data
     } catch (error) {
-      toast.error(error.message);
+      handleError(error)
     }
   }
 
@@ -90,7 +90,7 @@ export default function Clients() {
       const clientsResponse = await getAllClients()
       return clientsResponse.data
     } catch (error) {
-      toast.error(error.message);
+      handleError(error)
     } finally {
       setIsLoading(false)
     }
@@ -104,7 +104,7 @@ export default function Clients() {
       navigate("/clients")
       navigate(0)
     } catch (error) {
-      toast.error(error.message);
+      handleError(error)
     }
     finally {
       setIsLoading(false)
@@ -119,7 +119,7 @@ export default function Clients() {
       navigate('/clients')
       navigate(0)
     } catch (error) {
-      toast.error(error.message);
+      handleError(error)
     } finally {
       setIsLoading(false)
     }
@@ -132,7 +132,7 @@ export default function Clients() {
       navigate("/clients")
       navigate(0)
     } catch (error) {
-      toast.error(error.message);
+      handleError(error)
     }
     finally {
       setIsLoading(false)

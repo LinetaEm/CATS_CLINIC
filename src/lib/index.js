@@ -1,3 +1,5 @@
+import { toast } from "react-toastify";
+
 export function stringToColor(string) {
     let hash = 0;
     let i;
@@ -41,3 +43,16 @@ export function stringToColor(string) {
     });
     return results;
   }
+
+  
+export default function handleError(error) {
+  const errorResponseData = error?.response?.data;
+  const errorMessage = errorResponseData || error.message;
+  toast.error(errorMessage);
+}
+
+export function findClientByPet(clients, pet) {
+
+  const foundClient = clients.find(client => client.id === pet.usersId);
+  return foundClient;
+}

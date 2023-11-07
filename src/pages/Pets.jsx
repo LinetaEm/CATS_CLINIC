@@ -25,6 +25,7 @@ import "../css/pages/Pets.css"
 
 // TOASTIFY 
 import { ToastContainer, toast } from 'react-toastify';
+import handleError from '../lib';
 
 export default function Pets() {
 
@@ -64,7 +65,7 @@ export default function Pets() {
       const clientsResponse = await getAllClients()
       return clientsResponse.data
     } catch (error) {
-      toast.error(error.message);
+      handleError(error)
     } finally {
       setIsLoading(false)
     }
@@ -95,7 +96,7 @@ export default function Pets() {
       navigate("/pets")
       navigate(0)
     } catch (error) {
-      toast.error(error.message);
+      handleError(error)
     } finally {
       setIsLoading(false)
     }
@@ -108,7 +109,7 @@ export default function Pets() {
       navigate("/pets")
       navigate(0)
     } catch (error) {
-      toast.error(error.message);
+      handleError(error)
     } finally {
       setIsLoading(false)
     }
@@ -120,7 +121,7 @@ export default function Pets() {
       const allPetsResponse = await getAllPets()
       return allPetsResponse.data
     } catch (error) {
-      toast.error(error.message);
+      handleError(error)
     } finally {
       setIsLoading(false)
     }
@@ -132,7 +133,7 @@ export default function Pets() {
       const petsReponse = await getPets(userState.id)
       return petsReponse.data
     } catch (error) {
-      toast.error(error.message);
+      handleError(error)
     } finally {
       setIsLoading(false)
     }
@@ -140,12 +141,13 @@ export default function Pets() {
 
   const handleEditPet = async (values) => {
     try {
+  
       setIsLoading(true)
       await editPet(values, editablePetId)
       navigate("/pets")
       navigate(0)
     } catch (error) {
-      toast.error(error.message);
+      handleError(error)
     } finally {
       setIsLoading(false)
     }
@@ -179,7 +181,9 @@ export default function Pets() {
           setIsEditModalOpen={setIsEditModalOpen}
           handleEditPet={handleEditPet}
           editablePetId={editablePetId}
-          petsToDisplay={petsToDisplay()}
+        petsToDisplay={petsToDisplay()}
+        allClients={allClients}
+
         />
       }
       <Box id='pets-page-box'>
@@ -200,6 +204,7 @@ export default function Pets() {
             setIsEditModalOpen={setIsEditModalOpen}
             setEditablePetId={setEditablePetId}
             handleRemovePet={handleRemovePet}
+  
           />
         }
       </Box>
