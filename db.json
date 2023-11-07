@@ -31,16 +31,6 @@
       "id": 3
     },
     {
-      "email": "person5@example.com",
-      "password": "$2a$10$F7DlDEs7BRMeMWhha5JAgOC9PUItmMNmTKMAlV13zj1n/uhB00VZG",
-      "firstName": "David",
-      "lastName": "Brown",
-      "address": "Miami",
-      "phone": "+1230987654",
-      "role": "client",
-      "id": 5
-    },
-    {
       "email": "person6@example.com",
       "password": "$2a$10$e7Oz8Zs7eY.WaXEnOpXsv.eIhTk9NBtA2fEfE7neqwLar7wUjLbju",
       "firstName": "Emily",
@@ -91,41 +81,21 @@
       "id": 10
     },
     {
-      "email": "klientas@klientas.com",
-      "password": "$2a$10$CisCd6kB2WEv2GQfeJrt6.eo4pxVyg/T/r7AMuvxZxl9j6TyRMdy.",
-      "firstName": "Klientas",
-      "lastName": "Klientas",
-      "address": "1",
-      "phone": "1",
+      "email": "linetamileikiene@gmail.com",
+      "password": "$2a$10$s5HDCSb02ZkpKWXees6RRONyOhkMTFqVF7Hjuoxg.DDa.vxWetCoG",
+      "firstName": "INARA",
+      "lastName": "JUŠKIENĖ",
+      "address": "Stoties g. 5a",
+      "phone": "864810731",
       "role": "client",
       "id": 11
-    },
-    {
-      "email": "linetamileikiene@gmail.com",
-      "password": "$2a$10$RV39vPFaCpuqwwm6ZllZO.wwULwIwn/Wha5lEXHTbbPYcSvQQoxYO",
-      "firstName": "Lineta",
-      "lastName": "Mileikienė",
-      "address": "Karaliaus Mindaugo pr. 26-4",
-      "phone": "868500730",
-      "role": "client",
-      "id": 12
-    },
-    {
-      "email": "pastoges@yahoo.com",
-      "password": "$2a$10$FCp2yM/VNFEGSDCbYu8Cnefpu5y1Q5rTWMGvgp5G3nbONrzvnZq5G",
-      "firstName": "password",
-      "lastName": "pass",
-      "address": "1",
-      "phone": "2",
-      "role": "client",
-      "id": 13
     }
   ],
   "visits": [
     {
       "usersId": 2,
-      "selectedTime": "2023-11-11T10:00:49.000Z",
-      "comment": "2rr",
+      "selectedTime": "2023-11-12T10:00:49.000Z",
+      "comment": "geras šuo",
       "petsId": [
         1
       ],
@@ -148,15 +118,6 @@
         5
       ],
       "id": 5
-    },
-    {
-      "usersId": 5,
-      "selectedTime": "2023-11-10T09:40:15.821Z",
-      "comment": "Behavior training",
-      "petsId": [
-        6
-      ],
-      "id": 6
     },
     {
       "usersId": 8,
@@ -186,24 +147,6 @@
       "id": 10
     },
     {
-      "selectedTime": "2023-11-08T10:10:04.000Z",
-      "comment": "22",
-      "petsId": [
-        11
-      ],
-      "usersId": 11,
-      "id": 11
-    },
-    {
-      "usersId": 2,
-      "selectedTime": "2023-11-12T14:06:18.000Z",
-      "comment": "Laba diena",
-      "petsId": [
-        10
-      ],
-      "id": 13
-    },
-    {
       "usersId": 2,
       "selectedTime": "2023-11-19T14:06:52.000Z",
       "comment": "cvbnn",
@@ -211,15 +154,6 @@
         1
       ],
       "id": 14
-    },
-    {
-      "selectedTime": "2023-11-18T15:31:04.000Z",
-      "comment": "fhhghg",
-      "petsId": [
-        16
-      ],
-      "usersId": 12,
-      "id": 15
     }
   ],
   "pets": [
@@ -259,10 +193,10 @@
       "id": 7
     },
     {
-      "name": "Coco",
+      "name": "Coco Chanel",
       "breed": "Maine Coon",
       "age": "3",
-      "usersId": 3,
+      "usersId": 1,
       "id": 8
     },
     {
@@ -280,39 +214,11 @@
       "id": 10
     },
     {
-      "name": "2",
-      "breed": "2",
-      "age": "11",
-      "usersId": 1,
+      "name": "Lina",
+      "breed": "Siamesse",
+      "age": "13",
+      "usersId": 11,
       "id": 11
-    },
-    {
-      "name": "Meda",
-      "breed": "Siamesse",
-      "age": "14",
-      "usersId": 3,
-      "id": 13
-    },
-    {
-      "name": "Irma",
-      "breed": "Siamesse",
-      "age": "13",
-      "usersId": 10,
-      "id": 14
-    },
-    {
-      "name": "Irma",
-      "breed": "Siamesse",
-      "age": "14",
-      "usersId": 5,
-      "id": 15
-    },
-    {
-      "name": "Kojinė fon Šiurkė",
-      "breed": "Siamesse",
-      "age": "13",
-      "usersId": 12,
-      "id": 16
     }
   ]
 }

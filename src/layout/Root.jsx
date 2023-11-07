@@ -22,7 +22,7 @@ import AppRegistrationIcon from "@mui/icons-material/AppRegistration";
 import PetsIcon from "@mui/icons-material/Pets";
 import PeopleIcon from "@mui/icons-material/People";
 // LOGO
-import logo from "./logo.jpg";  
+import logo from "./logo.jpg";
 
 // CSS
 import "./Root.css";
@@ -34,9 +34,10 @@ export default function Root() {
   return (
     <>
       <div id="sidebar">
-        <h2>Tel. +370 123456</h2>
-        <h3>I. Kanto str. 00, Kaunas</h3>
-          <img src={logo} alt="Logo" />
+        <p>Tel. +370 123456</p>
+        <p3>Address: I. Kanto str. 100, Kaunas</p3>
+        <p>e-mail: info@email.com</p>
+        <img src={logo} alt="Logo" />
         <List>
           {!userState && (
             <ListItem onClick={() => navigate("/home")}>
@@ -107,7 +108,7 @@ export default function Root() {
           {userState && (
             <ListItem
               onClick={() => {
-                navigate("/");
+                navigate("/home");
                 localLogout();
               }}
             >
