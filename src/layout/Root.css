@@ -36,7 +36,7 @@ button:active {
 
 #contact h1 {
   display: flex;
-  align-items: flex-start;
+  text-align: center;
   gap: 1rem;
 }
 #contact h1 form {
@@ -216,8 +216,6 @@ i {
   color: hsl(224, 98%, 58%);
 }
 
-
-
 #error-page {
   display: flex;
   flex-direction: column;
@@ -225,3 +223,18 @@ i {
   justify-content: center;
   width: 100%;
 }
+
+/* @media (max-width: 768px) {
+  #root {
+    flex-direction: column;
+  }
+
+  #sidebar {
+    width: 100%;
+  }
+
+  #sidebar h1 {
+    font-size: 1rem;
+    padding: 1rem 2rem;
+  }
+} */

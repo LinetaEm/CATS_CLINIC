@@ -79,6 +79,26 @@
       "phone": "+3456789123",
       "role": "client",
       "id": 10
+    },
+    {
+      "email": "pastoges@yahoo.com",
+      "password": "$2a$10$Miza/RPpagTi9NDaEK5iK.7xjSlwIEILjc781zYl0s.5cugFlJYLG",
+      "firstName": "Lineta",
+      "lastName": "Mileikien",
+      "address": "Karaliaus Mindaugo pr. 26-4",
+      "phone": "868500739",
+      "role": "client",
+      "id": 11
+    },
+    {
+      "email": "linetamileikiene@gmail.com",
+      "password": "$2a$10$gqBUZ.hOONScI/GdCWmk0OYH7vU1iQSalFohOrVYzANFHtOQoYGjm",
+      "firstName": "Lineta",
+      "lastName": "Mileikienė",
+      "address": "Karaliaus Mindaugo pr. 26-4",
+      "phone": "868500730",
+      "role": "client",
+      "id": 12
     }
   ],
   "visits": [
@@ -93,25 +113,25 @@
     },
     {
       "usersId": 9,
-      "selectedTime": "2023-11-19T15:55:45.000Z",
+      "selectedTime": "2023-11-26T18:30:45.000Z",
       "comment": "Emergency",
       "petsId": [
-        4
+        5
       ],
       "id": 4
     },
     {
       "usersId": 6,
-      "selectedTime": "2023-11-09T13:15:28.402Z",
-      "comment": "Grooming session",
+      "selectedTime": "2023-11-19T13:15:28.000Z",
+      "comment": "Grooming session (very nice pet)",
       "petsId": [
-        5
+        6
       ],
       "id": 5
     },
     {
       "usersId": 8,
-      "selectedTime": "2023-11-11T12:55:37.754Z",
+      "selectedTime": "2023-11-26T12:55:37.000Z",
       "comment": "Follow-up checkup",
       "petsId": [
         7
@@ -166,9 +186,9 @@
   ],
   "pets": [
     {
-      "name": "Toras",
+      "name": "Tora",
       "breed": "Doberman",
-      "age": "2",
+      "age": "8",
       "usersId": 2,
       "id": 1
     },
